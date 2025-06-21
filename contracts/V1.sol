@@ -1,4 +1,3 @@
-//abi
 // SPDX-License-Identifier: SEE LICENSE IN LICENSE
 pragma solidity  ^0.8.10;
 
@@ -10,7 +9,7 @@ contract V1 {
     //     _disableInitializers(); // Require for proxy safety
     // }
 
-    function initialize(unit _val)  external () {
+    function initialize(unit _val) external {
         val = _val
-    }
+    };
 }

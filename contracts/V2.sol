@@ -9,7 +9,7 @@ contract V2 {
     //     _disableInitializers(); // Require for proxy safety
     // }
 
-    function end() external () {
+    function end() external {
         val += 1;
     }
 }
